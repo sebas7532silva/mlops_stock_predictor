@@ -37,7 +37,7 @@ Este proyecto implementa un sistema completo de predicción del precio de las ac
 - **app/models/trainer.py**: Entrenamiento del modelo, guardado con Joblib y logueo en MLflow.
 - **app/models/predictor.py**: Carga del modelo y predicción del siguiente precio.
 - **streamlit_app/dashboard.py**: Interfaz visual que muestra datos históricos, predicción y métricas del modelo.
-- **train_and_promot.py**: Script principal que orquesta carga de datos, preprocesamiento, entrenamiento y guardado del modelo.
+- **train_and_promote.py**: Script principal que orquesta carga de datos, preprocesamiento, entrenamiento y guardado del modelo.
 - **mlruns/**: Directorio donde MLflow almacena experimentos, métricas, modelos y artefactos.
 
 ---
@@ -83,4 +83,4 @@ Este proyecto implementa un sistema completo de predicción del precio de las ac
 ### Entrenamiento
 
 ```bash
-python train_and_promot.py
+python train_and_promote.py

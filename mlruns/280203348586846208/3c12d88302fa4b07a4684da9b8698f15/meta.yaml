@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sebas/OneDrive/Documentos/TripleTen/mlops_stock_predictor/mlruns/280203348586846208/3c12d88302fa4b07a4684da9b8698f15/artifacts
+end_time: 1748534550461
+entry_point_name: ''
+experiment_id: '280203348586846208'
+lifecycle_stage: active
+run_id: 3c12d88302fa4b07a4684da9b8698f15
+run_name: incongruous-owl-304
+run_uuid: 3c12d88302fa4b07a4684da9b8698f15
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748534544921
+status: 3
+tags: []
+user_id: sebas
