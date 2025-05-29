@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sebas/OneDrive/Documentos/TripleTen/mlops_stock_predictor/mlruns/280203348586846208/6fa37f097eb940949cd7db013712dd99/artifacts
+end_time: 1748529817306
+entry_point_name: ''
+experiment_id: '280203348586846208'
+lifecycle_stage: active
+run_id: 6fa37f097eb940949cd7db013712dd99
+run_name: zealous-mule-480
+run_uuid: 6fa37f097eb940949cd7db013712dd99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748529813573
+status: 3
+tags: []
+user_id: sebas

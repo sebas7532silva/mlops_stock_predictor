@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sebas/OneDrive/Documentos/TripleTen/mlops_stock_predictor/mlruns/280203348586846208/f0092c1c54354e11b7c1fd045d54722c/artifacts
+end_time: 1748523205655
+entry_point_name: ''
+experiment_id: '280203348586846208'
+lifecycle_stage: active
+run_id: f0092c1c54354e11b7c1fd045d54722c
+run_name: defiant-fawn-551
+run_uuid: f0092c1c54354e11b7c1fd045d54722c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748523201339
+status: 3
+tags: []
+user_id: sebas

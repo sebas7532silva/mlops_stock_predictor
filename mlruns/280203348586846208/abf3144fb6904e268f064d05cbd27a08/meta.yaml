@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sebas/OneDrive/Documentos/TripleTen/mlops_stock_predictor/mlruns/280203348586846208/abf3144fb6904e268f064d05cbd27a08/artifacts
+end_time: 1748523004579
+entry_point_name: ''
+experiment_id: '280203348586846208'
+lifecycle_stage: active
+run_id: abf3144fb6904e268f064d05cbd27a08
+run_name: adventurous-sloth-45
+run_uuid: abf3144fb6904e268f064d05cbd27a08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748523000237
+status: 3
+tags: []
+user_id: sebas

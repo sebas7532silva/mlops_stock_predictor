@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sebas/OneDrive/Documentos/TripleTen/mlops_stock_predictor/mlruns/280203348586846208/1b5321b7783c404399400fcc10b0f873/artifacts
+end_time: 1748525896657
+entry_point_name: ''
+experiment_id: '280203348586846208'
+lifecycle_stage: active
+run_id: 1b5321b7783c404399400fcc10b0f873
+run_name: trusting-dolphin-893
+run_uuid: 1b5321b7783c404399400fcc10b0f873
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748525891789
+status: 3
+tags: []
+user_id: sebas

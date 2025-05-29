@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sebas/OneDrive/Documentos/TripleTen/mlops_stock_predictor/mlruns/280203348586846208/69018b58b9e54e0d835fc4659946ad0f/artifacts
+end_time: 1748529938830
+entry_point_name: ''
+experiment_id: '280203348586846208'
+lifecycle_stage: active
+run_id: 69018b58b9e54e0d835fc4659946ad0f
+run_name: salty-deer-350
+run_uuid: 69018b58b9e54e0d835fc4659946ad0f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748529935226
+status: 3
+tags: []
+user_id: sebas

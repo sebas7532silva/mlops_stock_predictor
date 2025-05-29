@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sebas/OneDrive/Documentos/TripleTen/mlops_stock_predictor/mlruns/280203348586846208/50e2639aa28b48c8a9854c3ecae18c23/artifacts
+end_time: 1748527552116
+entry_point_name: ''
+experiment_id: '280203348586846208'
+lifecycle_stage: active
+run_id: 50e2639aa28b48c8a9854c3ecae18c23
+run_name: traveling-cat-647
+run_uuid: 50e2639aa28b48c8a9854c3ecae18c23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748527548306
+status: 3
+tags: []
+user_id: sebas

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sebas/OneDrive/Documentos/TripleTen/mlops_stock_predictor/mlruns/280203348586846208/9c538e33ac5a4f70b5c28374b8a2a1d7/artifacts
+end_time: 1748530334548
+entry_point_name: ''
+experiment_id: '280203348586846208'
+lifecycle_stage: active
+run_id: 9c538e33ac5a4f70b5c28374b8a2a1d7
+run_name: burly-sloth-683
+run_uuid: 9c538e33ac5a4f70b5c28374b8a2a1d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748530330911
+status: 3
+tags: []
+user_id: sebas

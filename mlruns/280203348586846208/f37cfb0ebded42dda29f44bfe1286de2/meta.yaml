@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sebas/OneDrive/Documentos/TripleTen/mlops_stock_predictor/mlruns/280203348586846208/f37cfb0ebded42dda29f44bfe1286de2/artifacts
+end_time: 1748530003179
+entry_point_name: ''
+experiment_id: '280203348586846208'
+lifecycle_stage: active
+run_id: f37cfb0ebded42dda29f44bfe1286de2
+run_name: resilient-kite-596
+run_uuid: f37cfb0ebded42dda29f44bfe1286de2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748529999684
+status: 3
+tags: []
+user_id: sebas

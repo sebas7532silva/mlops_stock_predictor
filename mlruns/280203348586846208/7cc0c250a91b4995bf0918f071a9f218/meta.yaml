@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sebas/OneDrive/Documentos/TripleTen/mlops_stock_predictor/mlruns/280203348586846208/7cc0c250a91b4995bf0918f071a9f218/artifacts
+end_time: 1748531369347
+entry_point_name: ''
+experiment_id: '280203348586846208'
+lifecycle_stage: active
+run_id: 7cc0c250a91b4995bf0918f071a9f218
+run_name: overjoyed-robin-913
+run_uuid: 7cc0c250a91b4995bf0918f071a9f218
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748531363544
+status: 3
+tags: []
+user_id: sebas
