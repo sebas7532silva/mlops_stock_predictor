@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sebas/OneDrive/Documentos/TripleTen/mlops_stock_predictor/mlruns/280203348586846208/47363f593faf4a4e8795322499c26802/artifacts
+end_time: 1748537649763
+entry_point_name: ''
+experiment_id: '280203348586846208'
+lifecycle_stage: active
+run_id: 47363f593faf4a4e8795322499c26802
+run_name: carefree-auk-783
+run_uuid: 47363f593faf4a4e8795322499c26802
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748537643180
+status: 3
+tags: []
+user_id: sebas

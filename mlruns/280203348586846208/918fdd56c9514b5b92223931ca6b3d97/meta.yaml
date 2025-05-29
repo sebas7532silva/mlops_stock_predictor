@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sebas/OneDrive/Documentos/TripleTen/mlops_stock_predictor/mlruns/280203348586846208/918fdd56c9514b5b92223931ca6b3d97/artifacts
+end_time: 1748534781323
+entry_point_name: ''
+experiment_id: '280203348586846208'
+lifecycle_stage: active
+run_id: 918fdd56c9514b5b92223931ca6b3d97
+run_name: redolent-worm-288
+run_uuid: 918fdd56c9514b5b92223931ca6b3d97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748534775974
+status: 3
+tags: []
+user_id: sebas

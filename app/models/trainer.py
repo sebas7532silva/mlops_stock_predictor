@@ -12,12 +12,16 @@ from app.utils.config import MODELS_PATH
 from app.data.preprocessor import preprocess_data 
 import matplotlib.pyplot as plt
 from datetime import datetime
-
+from dotenv import load_dotenv
 import requests
 
+load_dotenv()
+
 def send_telegram_message(message):
-    token = "8008337527:AAE8HIMXKR8MHhx3a_5XGE9HMmx0IjKXYmY"
-    chat_id = 5607093141
+    TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+    CHAT_ID = os.getenv("CHAT_ID")
+    token = TELEGRAM_TOKEN
+    chat_id = CHAT_ID
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     payload = {"chat_id": chat_id, "text": message}
     try:
