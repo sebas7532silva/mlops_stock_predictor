@@ -4,10 +4,10 @@ from datetime import datetime, timedelta
 from pymongo import MongoClient
 import os
 
-def fetch_hourly_data(ticker="AAPL", period="2d", interval="60m"):
+def fetch_hourly_data(ticker="AAPL", hours=15):
     data = yf.download(ticker, period="7d", interval="1h", auto_adjust=False)
     data.reset_index(inplace=True)
-    return data
+    return data.tail(hours)
 
 def save_to_mongo(df, db_name="stock_db", collection_name="aapl"):
     client = MongoClient(os.getenv("MONGO_URI", "mongodb://localhost:27017"))

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sebas/OneDrive/Documentos/TripleTen/mlops_stock_predictor/mlruns/280203348586846208/2d4f06ab76bf4fb7a973278ed74128ee/artifacts
+end_time: 1748538592012
+entry_point_name: ''
+experiment_id: '280203348586846208'
+lifecycle_stage: active
+run_id: 2d4f06ab76bf4fb7a973278ed74128ee
+run_name: funny-stag-493
+run_uuid: 2d4f06ab76bf4fb7a973278ed74128ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748538586928
+status: 3
+tags: []
+user_id: sebas

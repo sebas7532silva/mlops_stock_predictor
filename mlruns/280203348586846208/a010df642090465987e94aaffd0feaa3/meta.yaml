@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sebas/OneDrive/Documentos/TripleTen/mlops_stock_predictor/mlruns/280203348586846208/a010df642090465987e94aaffd0feaa3/artifacts
+end_time: 1748538380424
+entry_point_name: ''
+experiment_id: '280203348586846208'
+lifecycle_stage: active
+run_id: a010df642090465987e94aaffd0feaa3
+run_name: skillful-dog-222
+run_uuid: a010df642090465987e94aaffd0feaa3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748538371902
+status: 3
+tags: []
+user_id: sebas
