@@ -19,7 +19,7 @@ metrics = get_last_metrics("AAPL_Prediction")
 params = get_model_parameters("AAPL_Prediction")
 artifact_images = get_model_artifacts("AAPL_Prediction")
     
-df = load_latest_data()  # Esta función debe devolver df con columnas 'Datetime_' y 'Close_AAPL'
+df = load_latest_data()
 df = df.sort_values("Datetime_").tail(5).copy()
 
 # Predecir el siguiente precio

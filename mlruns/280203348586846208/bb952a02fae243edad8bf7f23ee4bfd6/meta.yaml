@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sebas/OneDrive/Documentos/TripleTen/mlops_stock_predictor/mlruns/280203348586846208/bb952a02fae243edad8bf7f23ee4bfd6/artifacts
+end_time: 1748532737253
+entry_point_name: ''
+experiment_id: '280203348586846208'
+lifecycle_stage: active
+run_id: bb952a02fae243edad8bf7f23ee4bfd6
+run_name: secretive-ape-42
+run_uuid: bb952a02fae243edad8bf7f23ee4bfd6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748532731835
+status: 3
+tags: []
+user_id: sebas

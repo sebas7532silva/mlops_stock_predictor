@@ -48,8 +48,8 @@ def load_data_from_mongo(db_name="stock_db", collection_name="aapl"):
     df = pd.DataFrame(data)
     return df
 
-def train_model(df):
-    X = df[["Hour", "Day"]]
+def train_model(df, feature_cols):
+    X = df[feature_cols]
     y = df["Close_AAPL"]
     
     X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -81,6 +81,10 @@ def train_model(df):
 
     EXPERIMENT_NAME = "AAPL_Prediction"
     mlflow.set_experiment(EXPERIMENT_NAME)
+    
+    latest_features = X_val.tail(1)
+    latest_features.to_csv("latest_features.csv", index=False)
+    
 
     with mlflow.start_run():
         mlflow.sklearn.log_model(best_model, "model")
@@ -91,6 +95,7 @@ def train_model(df):
         mlflow.log_params(best_params)
         mlflow.log_artifact("train_pred_vs_actual.png")
         mlflow.log_artifact("val_pred_vs_actual.png")
+        mlflow.log_artifact("latest_features.csv")
     
     send_telegram_message(
     f"✅ Entrenamiento completado a las {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n"
@@ -106,10 +111,10 @@ if __name__ == "__main__":
     df = load_data_from_mongo()
 
     # Preprocesar datos para agregar Hour y Day, eliminar nulos, etc.
-    df = preprocess_data(df)
+    df, feature_cols = preprocess_data(df)
 
     # Entrenar modelo
-    model = train_model(df)
+    model = train_model(df, feature_cols)
 
     # Guardar modelo localmente
     dump(model, os.path.join(MODELS_PATH, "latest_model.joblib"))

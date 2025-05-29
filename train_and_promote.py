@@ -12,9 +12,9 @@ def main():
         os.makedirs(MODELS_PATH, exist_ok=True)
 
         df = load_data_from_mongo()
-        df = preprocess_data(df)
+        df, feature_cols = preprocess_data(df)
 
-        model = train_model(df)
+        model = train_model(df, feature_cols)
 
         model_path = os.path.join(MODELS_PATH, "latest_model.joblib")
         dump(model, model_path)
